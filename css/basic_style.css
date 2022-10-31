@@ -1,0 +1,43 @@
+body    {background-color: white;}
+h1      {color:rgb(206, 223, 55); text-align: center;}
+h2      {color:darkslateblue}
+
+header  {
+    background-color: whitesmoke;
+    padding: 0;
+    max-width: 100%;
+    max-height: 30%;
+}
+nav     {
+    background-color:rgb(206, 223, 55);
+    padding: 0;
+}
+img{
+    max-width: fit-content; float: left;
+}
+.header {background-color: darkslateblue}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(206, 223, 55);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: darkslateblue;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: whitesmoke;
+  }
+  .main  {background-color: white;color:black}
+  #footer   {text-align: center;}
